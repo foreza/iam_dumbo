@@ -10,7 +10,7 @@
             <Duration>00:00:07</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="1080" height="1920" bitrate="500" scalable="true" maintainAspectRatio="true">
-                <![CDATA[https://jasonthechiu.com/iam_dumbo/cat_cola.mp4]]>
+                <![CDATA[https://jasonthechiu.com/iam_dumbo/assets/cat_cola_360p.mp4]]>
               </MediaFile>
             </MediaFiles>
             <VideoClicks>
