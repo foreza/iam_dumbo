@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Ad id="jeebie_cola_rewarded">
+    <InLine>
+      <AdSystem>Creative Ad Agency</AdSystem>
+      <AdTitle>Jeebie Cola: The Fizz</AdTitle>
+      <Creatives>
+        <Creative id="video_1" sequence="1">
+          <Linear>
+            <Duration>00:00:07</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1080" height="1920" bitrate="500" scalable="true" maintainAspectRatio="true">
+                <![CDATA[https://jasonthechiu.com/iam_dumbo/cat_cola.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://www.jeebiecola.com]]></ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
