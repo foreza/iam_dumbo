@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="ad.size" content="width=320,height=50">
+    <style>
+        body { margin: 0; padding: 0; background-color: #FF69B4; font-family: sans-serif; overflow: hidden; }
+        .container { width: 320px; height: 50px; display: flex; align-items: center; justify-content: space-between; padding: 0 10px; box-sizing: border-box; }
+        .logo { font-weight: bold; color: white; font-size: 18px; text-shadow: 2px 2px #000; }
+        .cta { background: #00BFFF; color: white; padding: 5px 10px; border-radius: 5px; font-size: 12px; text-transform: uppercase; cursor: pointer; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body>
+    <div class="container" onclick="javascript:window.open(window.clickTag)">
+        <div class="logo">Jeebie Cola 🐱</div>
+        <div class="cta">Get the Fizz</div>
+    </div>
+    <script>var clickTag = "https://www.jeebiecola.com";</script>
+</body>
+</html>
